@@ -23,14 +23,10 @@ def tail(input_list):
 def last(input_list):
     """Return the last item of the input list.
 
-    For example:
-
-    >>> last(['Jan', 'Feb', 'Mar'])
-    'Mar'
 
     """
 
-    return []
+    return input_list[-1]
 
 
 def top(input_list):
